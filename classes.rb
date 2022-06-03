@@ -1,15 +1,17 @@
 class Book
     attr_accessor :title, :author, :pages
+    def initialize(title, author, pages)
+        @title = title
+        @author = author
+        @pages = pages
+    end
 end
 
 # an object is an instance of a class
-book1 = Book.new()
-book1.title = "Harry Potter"
-book1.author = "JK Rowling"
-book1.pages = 400
+book1 = Book.new("Harry Potter", "JK Rowling", 400)
+book2 = Book.new("Lord of The Rings", "Tolken", 500)
 
-book2 = Book.new()
-book2.title = "Lord of The Rings"
-book2.author = "Tolkein"
-book2.pages = 600
+puts book2.title
+puts book1.pages
+
 
