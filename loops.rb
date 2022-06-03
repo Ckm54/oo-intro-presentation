@@ -1,8 +1,12 @@
-ismale = true
+ismale = false
 istall = false
 
-if ismale or istall
+if ismale and istall
     puts "You are a tall male"
+elsif ismale and !istall
+    puts "You are a short male"
+elsif !ismale and istall
+    puts "You are not male and tall"
 else
-    puts "You are either not male or not tall or both"
+    puts "You are not male and not tall"
 end
