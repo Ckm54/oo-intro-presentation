@@ -1,5 +1,0 @@
-Jim, Sales
-Andy, Sales
-Kelly, Customer care
-Creed, Quality assurance
-Michael, Manager
