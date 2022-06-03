@@ -8,3 +8,7 @@ module Tools
         puts "Goodbye #{name}"
     end
 end
+
+include Tools
+
+Tools.say_hi("collo")
