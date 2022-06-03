@@ -2,4 +2,5 @@
 friends = Array["Fred", "Kevin", "Karen", "Oscar"]
 
 
-puts friends[0, 2]
+puts friends.include? "Karen"
+puts friends.reverse()
