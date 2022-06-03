@@ -5,7 +5,17 @@ class Student
         @major = major
         @gpa = gpa
     end
+
+    # define a method to determine whether a student has honors
+    def has_honors
+        if @gpa >= 3.5
+            return true
+        end
+        return false
+    end
 end
 
 student1 = Student.new("Jim", "Business", 2.6)
 student2 = Student.new("Pam", "Art", 3.6)
+
+puts student2.has_honors
